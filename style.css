@@ -476,7 +476,7 @@ color: #FF4343;
     
 } */
 
-@media only screen and (max-width: 375px), only screen and (min-device-width: 480px) {
+@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
     
     main{
         width: 375px;
@@ -597,7 +597,7 @@ color: #FF4343;
         top: 100rem;
     }
 
-    
+
 
     .shape-box{
         display: none;
