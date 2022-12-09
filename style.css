@@ -8,7 +8,7 @@ body, html {
     height: 100%;
     font-size: 65%;
     scroll-behavior: smooth;
-    /* margin-top: 3rem; */
+    
 }
 
 .page{
@@ -476,18 +476,18 @@ color: #FF4343;
     
 } */
 
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 375px), only screen and (min-device-width: 480px) {
     
     main{
         width: 375px;
-          height: 400vh;
+          
     }
 
     .page{
         position: relative;
         padding: 3rem;
         width: 375px;
-      
+        height: 100%;
         margin: 0;
         top: 0;
         left: 0;
@@ -564,11 +564,14 @@ color: #FF4343;
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 120rem;
+        top: 100rem;
     }
 
     .col-0 img{
-        height: 100rem;
+        position: relative;
+        /* top: 5rem; */
+        width: 129rem;
+        height: 95rem;
     }
 
     .shape .col-3{
@@ -587,10 +590,20 @@ color: #FF4343;
     }
 
     .flower{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 100rem;
+    }
+
+    
+
+    .shape-box{
         display: none;
     }
 
-    .shape-box{
+    .hero-2{
         display: none;
     }
 
