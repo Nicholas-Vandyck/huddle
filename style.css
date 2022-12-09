@@ -8,36 +8,34 @@ body, html {
     height: 100%;
     font-size: 65%;
     scroll-behavior: smooth;
+    
 }
 
 .page{
     position: relative;
     padding: 3rem;
-    /* overflow: hidden; */
     max-width: 1440px; 
     margin: 0;
-
-   
-              
+            
 }
 .header{
     display: flex;
     justify-content: space-between;
-width: 1297px;
-height: 40px;
-left: 80px;
-top: 78px;
+    width: 1297px;
+    height: 40px;
+    left: 80px;
+    top: 78px;
 }
 
 .btn{
     /* box-sizing: border-box; */
-width: 10rem;
-background: #FFFFFF;
-border: 1px solid #FF52C1;
-box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778);
-border-radius: 15px;
-color: #FF52C1;
-cursor: pointer;
+    width: 10rem;
+    background: #FFFFFF;
+    border: 1px solid #FF52C1;
+    box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778);
+    border-radius: 15px;
+    color: #FF52C1;
+    cursor: pointer;
 }
 
 .hero{
@@ -49,30 +47,27 @@ cursor: pointer;
 .build h4{
     left: 30rem;
     text-align: center;
-margin-top: 30rem;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 72px;
-color: #00252E;
+    margin-top: 30rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #00252E;
 
 }
 
 .build h5{
     position: absolute;
-   
-    /* height: 90px; */
-width: 550px;
-left: 37rem; 
-/* top: 45rem; */
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #00252E;
+    width: 550px;
+    left: 37rem; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00252E;
 }
 
 .btn1{
@@ -81,18 +76,18 @@ color: #00252E;
     top: 12rem; 
     height: 50px;
     width: 280px;
-background: #FF52C1;
-box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
-border-radius: 40px;
-border: none ;
-color: #FFFFFF;
-cursor: pointer;
+    background: #FF52C1;
+    box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+    border-radius: 40px;
+    border: none ;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .mockup{
     position: absolute;
-        left: 15rem;
-        top: 30rem;;
+    left: 15rem;
+    top: 30rem;;
 
 }
 
@@ -101,25 +96,26 @@ cursor: pointer;
     justify-content: space-between;
   
 }
+
 .icon-1{
     position: absolute;
-left: 24rem;
-top: 100rem;
+    left: 24rem;
+    top: 100rem;
 }
 
 .icon-2{
     position: absolute;
-left: 83rem;
-top: 100rem;
+    left: 83rem;
+    top: 100rem;
 }
 
 .diagram h1{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 70px;
-line-height: 144px;
-color: #00252E;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 144px;
+    color: #00252E;
 }
 
 .diagram p{
@@ -139,49 +135,49 @@ color: #00252E;
     left: -8rem;
 
 }
-.shape .col-1{
+/* .shape .col-1{
     position: absolute;
     display: flex;
  top: 127rem;
-}
+} */
 
-.col-2{
+.col-0{
     position: absolute; 
-    width: 129.60rem;
+    /* width: 129.60rem; */
     height: 35rem;
      left: 8rem; 
-    top: 140rem; 
-    background: #F6FBFF;
+    top: 125rem; 
+    /* background: #F6FBFF; */
 }
 
-.shape .col-4{
+/* .shape .col-4{
     position: absolute;
     top: 175rem;
-}
+} */
 
 .shape p{
     position: absolute;
-left: 8rem;
-top: 10rem;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-color: #00252E;
+    left: 8rem;
+    top: 28rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #00252E;
 }
 
 .shape h2{
     position: absolute;
-width: 40rem;
-top: 20rem;
-left: 8rem;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #00252E;
+    width: 40rem;
+    top: 35rem;
+    left: 8rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00252E;
 }
 
 .shape .col-3{
@@ -226,18 +222,15 @@ color: #00252E;
 
 .flower h2{
     position: absolute;
-height: 48px;
-left: 80rem;
-top: 253rem;
-width: 45rem;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-
-
+    height: 48px;
+    left: 80rem;
+    top: 253rem;
+    width: 45rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 color: #00252E;
 }
 
@@ -247,6 +240,7 @@ color: #00252E;
     top: 280rem;
 
 }
+
 .shape .colo-1{
     position: relative !important;
     display: flex;
@@ -270,27 +264,27 @@ color: #00252E;
 
 .shape-box p{
     position: absolute;
-left: 8rem;
-top: 10rem;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-color: #00252E;
+    left: 8rem;
+    top: 10rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #00252E;
 }
 
 .shape-box h2{
     position: absolute;
-width: 40rem;
-top: 20rem;
-left: 8rem;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #00252E;
+    width: 40rem;
+    top: 20rem;
+    left: 8rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00252E;
 }
 
 .shape-box .colo-3{
@@ -459,16 +453,153 @@ color: #FF4343;
     position: absolute;
     top: 0;
     left: 90rem;
-width: 10rem;
-height: 4rem;
-top: 413rem;
-background: #FF8ED7;
-border-radius: 5px;
-border: none;
+    width: 10rem;
+    height: 4rem;
+    top: 413rem;
+    background: #FF8ED7;
+    border-radius: 5px;
+    border: none;
     color: #FFFFFF;
     cursor: pointer;
 }
 
 
+/* @media only screen and(max-width: 375px){
+
+    .page{
+        position: relative;
+        padding: 3rem;
+      
+        margin: 0;
+                
+    }
+    
+} */
+
+@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+    
+    main{
+        width: 375px;
+          height: 400vh;
+    }
+
+    .page{
+        position: relative;
+        padding: 3rem;
+        width: 375px;
+      
+        margin: 0;
+        top: 0;
+        left: 0;
+    }
+
+    .header{
+        display: flex;
+        
+    }
+  
+
+    .hero h4{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 4rem;
+        width: 50rem;
+        left: 35rem;
+    }
+
+    .hero h5{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 55rem;
+        width: 35rem;
+        left: 40rem;
+    }
+
+    .btn1{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 75rem;
+        left: 44rem;
+
+    }
+
+    .mockup{
+        display: flex;
+        top: 95rem;
+    }
+
+    .diagram{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    .icon-1 {
+        top: 180rem;
+        left: 50rem;
+    }
+
+    .col-1 h1{
+        top: 10rem;
+        left: 50rem;
+    }
+
+
+    .icon-2{
+        top: 210rem;
+        left: 50rem;;
+    }
+
+    .shape{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 120rem;
+    }
+
+    .col-0 img{
+        height: 100rem;
+    }
+
+    .shape .col-3{
+        left: 50rem;
+    }
+
+    .col-0 p{
+        top: 60rem;
+        left: 50rem;
+    }
+
+    .col-0 h2{
+        width: 38rem;
+        top: 70rem;
+        left: 45rem;
+    }
+
+    .flower{
+        display: none;
+    }
+
+    .shape-box{
+        display: none;
+    }
+
+    footer img{
+        display: none;
+    }
+
+
+
+}
 
 
