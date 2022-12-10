@@ -357,6 +357,11 @@ footer p{
     cursor: pointer;
 }
 
+button span{
+    position: relative;
+    right: 9rem;
+}
+
 .new-icon h2{
     position: absolute;
     display: flex;
@@ -373,7 +378,7 @@ footer p{
 .subs button{
     position: absolute;
     left: 106rem;
-    width: 10rem;
+    width: 15rem;
     height: 4rem;
     top: 34rem;
     background: #FF8ED7;
@@ -442,6 +447,7 @@ footer p{
         display: flex;
         justify-content: center;
         align-items: center; 
+        top: -10rem;
     }
 
     .icon-1 {
@@ -450,7 +456,7 @@ footer p{
     }
 
     .col-1 h1{
-        top: 10rem;
+        top: 6rem;
         left: 50rem;
     }
 
@@ -561,14 +567,56 @@ footer p{
     }
 
     footer {
+        position: relative;
         top: 550rem;
     }
 
     footer img{
-        width: -130rem;
+        height: 95rem;
     }
 
+    .new-icon {
+        position: absolute;
+        left: -54rem;
+    }
 
+    button span{
+        display: none;
+    }
+
+     .subs{
+        position: inherit;
+        top: 6rem;
+        right: 18rem;
+    }
+
+    footer .foot-logo{
+        top: 60rem;
+        left: 22rem;
+    }
+
+    footer p{
+        left: 22rem;
+        top: 67rem;
+    }
+
+    .phone-icon{
+        position: absolute;;
+        top: 43rem;
+        left: 7rem;
+    }
+
+    .mail-icon{
+        position: absolute;;
+        top: 43rem;
+        left: 7rem;
+    }
+
+    .social-icon{
+        position: absolute;
+        top: 90rem;
+        left: 22rem;
+    }
 
 }
 
