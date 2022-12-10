@@ -389,17 +389,16 @@ button span{
 }
 
 
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 280px), only screen and (max-device-width: 480px) {
     
     main{
-        width: 375px;
-          
+        width: 280px;     
     }
 
     .page{
         position: relative;
         padding: 3rem;
-        width: 375px;
+        width: 280px;
         height: 100%;
         margin: 0;
         top: 0;
