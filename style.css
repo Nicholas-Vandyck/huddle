@@ -384,7 +384,7 @@ footer p{
 }
 
 
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 375px), only screen and (min-device-width: 480px) {
     
     main{
         width: 375px;
@@ -494,7 +494,7 @@ footer p{
         justify-content: center;
         align-items: center;
         top: 350rem;
-        height: 100%;
+        /* height: 100%; */
     }
 
     .flower .col-5 {
@@ -502,12 +502,12 @@ footer p{
     }
 
     .flower p{
-        top: 30rem;
+        top: 23rem;
         left: 40rem;
     }
 
     .flower h2{
-        top: 38rem;
+        top: 33rem;
         left: 37rem;
     }
 
@@ -516,7 +516,7 @@ footer p{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 150rem;
+        top: 140rem;
     }
 
     .colo-2 img{
@@ -541,19 +541,27 @@ footer p{
     }
     
     .hero-2{
+        position: absolute;
         top: 530rem;
     }
 
     .hero-2 p{
         width: 35rem;
     }
+
+    .hero-2 p span{
+        position: absolute;
+        top: 5rem;
+        left: 10rem;
+    }
+
     .hero-2 .btn{
         top: 10rem;
         left: -30rem;
     }
 
     footer {
-        top: 570rem;
+        top: 550rem;
     }
 
     footer img{
