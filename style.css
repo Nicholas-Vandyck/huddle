@@ -384,7 +384,7 @@ footer p{
 }
 
 
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 375px), only screen and (min-device-width: 480px) {
     
     main{
         width: 375px;
@@ -404,34 +404,31 @@ footer p{
     .header{
         display: flex; 
     }
-  
-    .hero h4{
+
+    .hero, .hero-2{
         position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+  
+    .hero .build h4{
+       position: absolute;
         top: 4rem;
         width: 50rem;
-        left: 35rem;
-    }
-
-    .hero h5{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 55rem;
-        width: 35rem;
         left: 40rem;
     }
 
-    .btn1{
+    .hero .build h5{
+        top: 55rem;
+        width: 35rem;
+        left: 45rem;
+    }
+
+    .hero .btn1{
         position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         top: 75rem;
-        left: 44rem;
+        left: 48rem;
 
     }
 
@@ -446,7 +443,6 @@ footer p{
         justify-content: center;
         align-items: center; 
     }
-
 
     .icon-1 {
         top: 180rem;
@@ -520,20 +516,51 @@ footer p{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 160rem;
-        height: 100%;
+        top: 150rem;
+    }
+
+    .colo-2 img{
+        position: relative;
+        width: 129rem;
+        height: 92rem;
+    }
+
+    .shape-box .colo-3{
+        left: 50rem;
+    }
+
+    .colo-2 p{
+        top: 55rem;
+        left: 55rem;
+    }
+
+    .colo-2 h2{
+        width: 38rem;
+        top: 65rem;
+        left: 45rem;
     }
     
-
-
-
     .hero-2{
-        display: none;
+        top: 530rem;
+    }
+
+    .hero-2 p{
+        width: 35rem;
+    }
+    .hero-2 .btn{
+        top: 10rem;
+        left: -30rem;
     }
 
     footer {
-        display: none;
+        top: 570rem;
     }
+
+    footer img{
+        width: -130rem;
+    }
+
+
 
 }
 
