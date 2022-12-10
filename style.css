@@ -1,6 +1,8 @@
 * {  
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', 'Poppins';
+    font-style: normal;
     box-sizing: border-box;
 }
 
@@ -12,19 +14,18 @@ body, html {
 }
 
 .page{
-    position: relative;
-    padding: 3rem;
+    padding: 2rem;
     max-width: 1440px; 
-    margin: 0;
-            
+    margin: 0;        
 }
 .header{
+    position: absolute;
+    padding-left: 5rem;
     display: flex;
     justify-content: space-between;
-    width: 1297px;
+    width: 1290px;
     height: 40px;
-    left: 80px;
-    top: 78px;
+    top: 70px;
 }
 
 .btn{
@@ -38,8 +39,8 @@ body, html {
     cursor: pointer;
 }
 
-.hero{
-    position: relative;;
+.hero, .hero-2{
+    position: relative;
     margin-top: -15rem;
     align-items: center;
 }
@@ -48,8 +49,6 @@ body, html {
     left: 30rem;
     text-align: center;
     margin-top: 30rem;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
@@ -61,8 +60,6 @@ body, html {
     position: absolute;
     width: 550px;
     left: 37rem; 
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -70,7 +67,7 @@ body, html {
     color: #00252E;
 }
 
-.btn1{
+.btn1, .hero-2 .btn{
     position: relative;
     left: 50rem;
     top: 12rem; 
@@ -110,8 +107,6 @@ body, html {
 }
 
 .diagram h1{
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 70px;
     line-height: 144px;
@@ -121,8 +116,6 @@ body, html {
 .diagram p{
     position: relative; 
     top: -3rem; 
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     text-align: center;
@@ -130,58 +123,41 @@ body, html {
     
 }
 
-.shape{
-    position: absolute;;
+.shape, .shape-box{
+    position: absolute;
     left: -8rem;
 
 }
-/* .shape .col-1{
-    position: absolute;
-    display: flex;
- top: 127rem;
-} */
 
-.col-0{
+.col-0, .colo-2{
     position: absolute; 
-    /* width: 129.60rem; */
     height: 35rem;
      left: 8rem; 
     top: 125rem; 
-    /* background: #F6FBFF; */
 }
 
-/* .shape .col-4{
-    position: absolute;
-    top: 175rem;
-} */
-
-.shape p{
+.shape p, .shape-box p{
     position: absolute;
     left: 8rem;
     top: 28rem;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     color: #00252E;
 }
 
-.shape h2{
+.shape h2, .shape-box h2{
     position: absolute;
     width: 40rem;
     top: 35rem;
     left: 8rem;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #00252E;
 }
 
-.shape .col-3{
-
+.shape .col-3, .box .colo-3{
     position: absolute;
     display: flex;
     width: 10em;
@@ -192,10 +168,11 @@ body, html {
 }
 
 .flower{
-   
+    position: relative;
     display: flex;
-    /* width: 10rem; */
-   
+    justify-content: center;
+    align-items: center;
+    top: 235rem;
 }
 
 .flower .col-5{
@@ -204,16 +181,16 @@ body, html {
     width: 10em;
     height: 35rem;
     left: 8rem;
-    top: 235rem;
+    
 }
 
 .flower p{
     position: absolute;
+    display: flex;
     height: 60px;
-    left: 80rem;
-    top: 245rem;
-    font-family: 'Poppins';
-    font-style: normal;
+    width: 50rem;
+    left: 75rem;
+    top: -8rem;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
@@ -223,167 +200,116 @@ body, html {
 .flower h2{
     position: absolute;
     height: 48px;
-    left: 80rem;
-    top: 253rem;
+    left: 75rem;
     width: 45rem;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 color: #00252E;
 }
 
-.shape-box{
-    position: absolute;
-    left: -8rem;
-    top: 280rem;
-
-}
-
-.shape .colo-1{
-    position: relative !important;
-    display: flex;
-    top: 100rem !important;
-}
-
 .colo-2{
-    position: absolute; 
-    width: 129.60rem;
-    height: 38rem;
-     left: 8rem; 
-    top: 10rem; 
-    background: #F6FBFF;
-}
-
- .colo-4{
-    position: relative;
-    /* display: flex; */
-    top: 32rem;
+ top: 270rem;
 }
 
 .shape-box p{
-    position: absolute;
-    left: 8rem;
-    top: 10rem;
-    font-family: 'Poppins';
-    font-style: normal;
+    left: 20rem;
+    top: 20rem;
+
+}
+
+.shape-box h2{
+    top: 27rem;
+    left: 20rem;
+   
+}
+
+.shape-box .colo-3{
+    position: relative;
+    display: flex;
+    width: 10em;
+    height: 35rem;
+    left: 80rem;
+    top: 285rem;
+    
+}
+
+.hero-2{
+    width: 680px;
+    left: 389px;
+    top: 350rem;
+}
+
+.hero-2 p{
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     color: #00252E;
 }
 
-.shape-box h2{
-    position: absolute;
-    width: 40rem;
-    top: 20rem;
-    left: 8rem;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #00252E;
-}
-
-.shape-box .colo-3{
-
-    position: relative;
-    display: flex;
-    width: 10em;
-    height: 35rem;
-    left: 80rem;
-    top: -13rem;
-    
-}
-
-.hero-2{
-    position: absolute;
-width: 680px;
-height: 182px;
-left: 389px;
-top: 350rem;
-}
-
-.hero-2 p{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-color: #00252E;
-}
-
 .hero-2 .btn{
-    position: relative;
     left: 14rem;
     width: 22rem;
     height: 4rem;
     top: 3rem;
-    background: #FF8ED7;
-box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
-border-radius: 40px;
-color: #FFFFFF;
-border: none;
-cursor: pointer;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    top: 360rem;
 }
 
 footer img{
-    position: relative;
-    display: flex;
-    width: 129.50rem;
-    left: -3rem;
-    top: 340rem;
-    height: 50rem;
-    
+    width: 129rem;
+    left:- 1rem;
+     height: 55rem;
 }
 
 footer .foot-logo {
     position: absolute;
-    top: 395rem;
+    left: 15rem;
+    top: 20rem;
     
 }
 footer .foot-logo svg path{
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 footer p{
     position: absolute;
-    top: 400rem;
-    left: 3rem;
+    top: 25rem;
+    left: 15rem;
     width: 26rem;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 .phone-icon svg{
     position: absolute;
-    top: 410rem;
-    left: 3rem;
-    /* bottom: 4rem; */
+    top: 35rem;
+    left: 15rem;
 }
 
 
 .phone-icon p{
     position: absolute;
-    top: 410rem;
-    left: 6rem;
+    top: 35rem;
+    left: 18rem;
 }
 
 .mail-icon svg{
     position: absolute;
-    top: 415rem;
+    top: 39rem;
+    left: 15rem;
 }
 
 .mail-icon p{
     position: absolute;
-    top: 415rem;
-    left: 6rem;
+    top: 38.50rem;
+    left: 18rem;
 }
 
 .social-icon {
@@ -391,8 +317,8 @@ color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     width: 10rem;
-    top: 420rem;
-    /* left: 6rem; */
+    top: 48rem;
+    left: 15rem;
 
 }
 
@@ -405,57 +331,51 @@ color: #FFFFFF;
     position: absolute;
     display: flex;
     align-items: flex-end;
-    top: 396rem;
-    left: 70rem;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 36px;
-    
+    top: 20rem;
+    left: 76rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;  
     color: #FFFFFF;
 }
 
 .new-icon p{
-    position: absolute;
-    top: 400rem;
-    left: 70rem;
+    width: 30rem;
+    top: 24rem;
+    left: 76rem;
 }
 
 .new-icon button{
-
-position: absolute;
-left: 70rem;
-width: 18rem;
-height: 4rem;
-top: 413rem;
-background: #f8f7f7;
-border: 1px solid #FF4343;
-border-radius: 6px;
-cursor: pointer;
+    position: absolute;
+    left: 76rem;
+    width: 27rem;
+    height: 4rem;
+    top: 34rem;
+    background: #f8f7f7;
+    border: 1px solid #FF4343;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .new-icon h2{
     position: absolute;
     display: flex;
     align-items: center;
-    top: 417rem;
-    left: 70rem;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 24px;
-color: #FF4343;
+    top: 38rem;
+    left: 76rem;
+    width: 12rem;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FF4343;
 }
 
 .subs button{
     position: absolute;
-    top: 0;
-    left: 90rem;
+    left: 106rem;
     width: 10rem;
     height: 4rem;
-    top: 413rem;
+    top: 34rem;
     background: #FF8ED7;
     border-radius: 5px;
     border: none;
@@ -464,19 +384,7 @@ color: #FF4343;
 }
 
 
-/* @media only screen and(max-width: 375px){
-
-    .page{
-        position: relative;
-        padding: 3rem;
-      
-        margin: 0;
-                
-    }
-    
-} */
-
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 375px), only screen and (min-device-width: 480px) {
     
     main{
         width: 375px;
@@ -494,11 +402,9 @@ color: #FF4343;
     }
 
     .header{
-        display: flex;
-        
+        display: flex; 
     }
   
-
     .hero h4{
         position: absolute;
         display: flex;
@@ -538,8 +444,7 @@ color: #FF4343;
         position: absolute;
         display: flex;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; 
     }
 
 
@@ -552,7 +457,6 @@ color: #FF4343;
         top: 10rem;
         left: 50rem;
     }
-
 
     .icon-2{
         top: 210rem;
@@ -569,7 +473,6 @@ color: #FF4343;
 
     .col-0 img{
         position: relative;
-        /* top: 5rem; */
         width: 129rem;
         height: 95rem;
     }
@@ -594,24 +497,43 @@ color: #FF4343;
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 100rem;
+        top: 350rem;
+        height: 100%;
     }
 
+    .flower .col-5 {
+        left: 40rem;
+    }
 
+    .flower p{
+        top: 30rem;
+        left: 40rem;
+    }
+
+    .flower h2{
+        top: 38rem;
+        left: 37rem;
+    }
 
     .shape-box{
-        display: none;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 160rem;
+        height: 100%;
     }
+    
+
+
 
     .hero-2{
         display: none;
     }
 
-    footer img{
+    footer {
         display: none;
     }
-
-
 
 }
 
