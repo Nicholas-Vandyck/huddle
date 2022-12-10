@@ -17,11 +17,10 @@ http://huddle-pi-one.vercel.app
 2. Hover button effort
 
 ## Desktop Preview
-<img src="Desktop mode.png" max-width=1440px; height=100%;
-
+<img src="Desktop mode.png" with= 1440px height= 1832px>
 
 ## Mobile Preview
-<img src="Mobile mode.png" max-width=375px; height=100%;
+<img src="Mobile mode.png" with= 375px height= 1945px>
 
 ## Lesson Learn
 Learned how to use media queries to make a page responsive.
