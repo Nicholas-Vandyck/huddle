@@ -13,12 +13,12 @@ body, html {
     
 }
 
-.page{
+.page-content{
     padding: 2rem;
     max-width: 1440px; 
     margin: 0;        
 }
-.header{
+.header-content{
     position: absolute;
     padding-left: 8rem;
     display: flex;
@@ -39,7 +39,7 @@ body, html {
     cursor: pointer;
 }
 
-.hero, .hero-2{
+.build-page, .build-page-container{
     position: relative;
     margin-top: -15rem;
     align-items: center;
@@ -67,7 +67,7 @@ body, html {
     color: #00252E;
 }
 
-.btn1, .hero-2 .btn{
+.btn1, .build-page-container .btn{
     position: relative;
     left: 50rem;
     top: 12rem; 
@@ -88,7 +88,7 @@ body, html {
 
 }
 
-.diagram{
+.diagram-page-container{
     position: absolute;
     justify-content: space-between;
   
@@ -106,14 +106,14 @@ body, html {
     top: 100rem;
 }
 
-.diagram h1{
+.diagram-page-container h1{
     font-weight: 600;
     font-size: 70px;
     line-height: 144px;
     color: #00252E;
 }
 
-.diagram p{
+.diagram-page-container p{
     position: relative; 
     top: -3rem; 
     font-weight: 300;
@@ -123,7 +123,7 @@ body, html {
     
 }
 
-.shape, .shape-box{
+.grow-page-container, .user-page-container{
     position: absolute;
     left: -8rem;
 
@@ -136,7 +136,7 @@ body, html {
     top: 125rem; 
 }
 
-.shape p, .shape-box p{
+.grow-page-container p, .user-page-container p{
     position: absolute;
     left: 8rem;
     top: 28rem;
@@ -146,7 +146,7 @@ body, html {
     color: #00252E;
 }
 
-.shape h2, .shape-box h2{
+.grow-page-container h2, .user-page-container h2{
     position: absolute;
     width: 40rem;
     top: 35rem;
@@ -157,7 +157,7 @@ body, html {
     color: #00252E;
 }
 
-.shape .col-3, .box .colo-3{
+.col-3,  .colo-3{
     position: absolute;
     display: flex;
     width: 10em;
@@ -167,7 +167,7 @@ body, html {
     
 }
 
-.flower{
+.flower-page-container{
     position: relative;
     display: flex;
     justify-content: center;
@@ -175,7 +175,7 @@ body, html {
     top: 235rem;
 }
 
-.flower .col-5{
+.flower-page-container .col-5{
     position: absolute;
     display: flex;
     width: 10em;
@@ -184,7 +184,7 @@ body, html {
     
 }
 
-.flower p{
+.flower-page-container p{
     position: absolute;
     display: flex;
     height: 60px;
@@ -197,7 +197,7 @@ body, html {
     color: #00252E;
 }
 
-.flower h2{
+.flower-page-container h2{
     position: absolute;
     height: 48px;
     left: 75rem;
@@ -212,19 +212,19 @@ color: #00252E;
  top: 270rem;
 }
 
-.shape-box p{
+.user-page-container p{
     left: 20rem;
     top: 20rem;
 
 }
 
-.shape-box h2{
+.user-page-container h2{
     top: 27rem;
     left: 20rem;
    
 }
 
-.shape-box .colo-3{
+.user-page-container .colo-3{
     position: relative;
     display: flex;
     width: 10em;
@@ -234,20 +234,20 @@ color: #00252E;
     
 }
 
-.hero-2{
+.build-page-container{
     width: 680px;
     left: 389px;
     top: 350rem;
 }
 
-.hero-2 p{
+.build-page-container p{
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     color: #00252E;
 }
 
-.hero-2 .btn{
+.build-page-container .btn{
     left: 14rem;
     width: 22rem;
     height: 4rem;
@@ -319,12 +319,17 @@ footer p{
     width: 10rem;
     top: 48rem;
     left: 15rem;
+    
 
 }
 
 .social-icon svg path{
     fill: #FFFFFF;
-    cursor: pointer;
+   cursor: pointer;
+}
+
+.icon:hover path{
+   fill: #6e55fa;
 }
 
 .new-icon h1{
@@ -395,7 +400,7 @@ button span{
         width: 280px;     
     }
 
-    .page{
+    .page-content{
         position: relative;
         padding: 3rem;
         width: 280px;
@@ -405,31 +410,31 @@ button span{
         left: 0;
     }
 
-    .header{
+    .header-content{
         display: flex; 
     }
 
-    .hero, .hero-2{
+    .build-page, .build-page-container{
         position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
     }
   
-    .hero .build h4{
+    .build-page .build h4{
        position: absolute;
         top: 4rem;
         width: 50rem;
         left: 40rem;
     }
 
-    .hero .build h5{
+    .build-page .build h5{
         top: 55rem;
         width: 35rem;
         left: 45rem;
     }
 
-    .hero .btn1{
+    .build-page .btn1{
         position: absolute;
         top: 75rem;
         left: 48rem;
@@ -441,7 +446,7 @@ button span{
         top: 95rem;
     }
 
-    .diagram{
+    .diagram-page-container{
         position: absolute;
         display: flex;
         justify-content: center;
@@ -464,7 +469,7 @@ button span{
         left: 50rem;;
     }
 
-    .shape{
+    .grow-page-container{
         position: absolute;
         display: flex;
         justify-content: center;
@@ -478,7 +483,7 @@ button span{
         height: 95rem;
     }
 
-    .shape .col-3{
+    .grow-page-container .col-3{
         left: 50rem;
     }
 
@@ -493,7 +498,7 @@ button span{
         left: 45rem;
     }
 
-    .flower{
+    .flower-page-container{
         position: absolute;
         display: flex;
         justify-content: center;
@@ -502,21 +507,21 @@ button span{
         /* height: 100%; */
     }
 
-    .flower .col-5 {
+    .flower-page-container .col-5 {
         left: 40rem;
     }
 
-    .flower p{
+    .flower-page-container p{
         top: 23rem;
         left: 40rem;
     }
 
-    .flower h2{
+    .flower-page-container h2{
         top: 33rem;
         left: 37rem;
     }
 
-    .shape-box{
+    .user-page-container{
         position: absolute;
         display: flex;
         justify-content: center;
@@ -530,7 +535,7 @@ button span{
         height: 92rem;
     }
 
-    .shape-box .colo-3{
+    .user-page-container .colo-3{
         left: 50rem;
     }
 
@@ -544,23 +549,22 @@ button span{
         top: 65rem;
         left: 45rem;
     }
-    
-    .hero-2{
+    .build-page-container{
         position: absolute;
         top: 530rem;
     }
 
-    .hero-2 p{
+    .build-page-container p{
         width: 35rem;
     }
 
-    .hero-2 p span{
+    .build-page-container p span{
         position: absolute;
         top: 5rem;
         left: 10rem;
     }
 
-    .hero-2 .btn{
+    .build-page-container .btn{
         top: 10rem;
         left: -30rem;
     }
@@ -579,14 +583,20 @@ button span{
         left: -54rem;
     }
 
-    button span{
+    .new-icon button{
+        position: relative;
+        width: 35rem;    
+    }
+
+    .new-icon h2, button span{
         display: none;
     }
 
-     .subs{
-        position: inherit;
-        top: 6rem;
-        right: 18rem;
+     .subs button{
+        position: relative;
+        width: 17rem;
+        top: 35rem;
+        left: 94rem;
     }
 
     footer .foot-logo{
