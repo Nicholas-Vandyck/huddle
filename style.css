@@ -493,7 +493,11 @@ button span{
     }
 
     .grow-page-container .col-0 img{
+<<<<<<< HEAD
         width: 145rem;
+=======
+        width: 200rem;
+>>>>>>> f8e01f54a9e70454662c5f47458f2cf415c54642
         height: 95rem;
     }
 
