@@ -18,14 +18,15 @@ body, html {
     max-width: 1440px; 
     margin: 0;        
 }
+
 .header-content{
     position: absolute;
     padding-left: 8rem;
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1440px;
     height: 40px;
-    top: 50px;
+    top: 60px;
 }
 
 .btn{
@@ -41,12 +42,13 @@ body, html {
 
 .build-page, .build-page-container{
     position: relative;
-    margin-top: -15rem;
+    margin-top: -5rem;
     align-items: center;
+    /* left: -5rem; */
 }
 
 .build h4{
-    left: 30rem;
+    left: 20rem;
     text-align: center;
     margin-top: 30rem;
     font-weight: 700;
@@ -59,7 +61,7 @@ body, html {
 .build h5{
     position: absolute;
     width: 550px;
-    left: 37rem; 
+    left: 50rem; 
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -69,7 +71,7 @@ body, html {
 
 .btn1, .build-page-container .btn{
     position: relative;
-    left: 50rem;
+    left: 65rem;
     top: 12rem; 
     height: 50px;
     width: 280px;
@@ -83,7 +85,7 @@ body, html {
 
 .mockup{
     position: absolute;
-    left: 15rem;
+    left: 30rem;
     top: 30rem;;
 
 }
@@ -96,13 +98,13 @@ body, html {
 
 .icon-1{
     position: absolute;
-    left: 24rem;
+    left: 35rem;
     top: 100rem;
 }
 
 .icon-2{
     position: absolute;
-    left: 83rem;
+    left: 95rem;
     top: 100rem;
 }
 
@@ -125,7 +127,7 @@ body, html {
 
 .grow-page-container, .user-page-container{
     position: absolute;
-    left: -8rem;
+    left: -10rem;
 
 }
 
@@ -138,7 +140,7 @@ body, html {
 
 .grow-page-container p, .user-page-container p{
     position: absolute;
-    left: 8rem;
+    left: 15rem;
     top: 28rem;
     font-weight: 700;
     font-size: 40px;
@@ -150,7 +152,7 @@ body, html {
     position: absolute;
     width: 40rem;
     top: 35rem;
-    left: 8rem;
+    left: 15rem;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -160,9 +162,9 @@ body, html {
 .col-3,  .colo-3{
     position: absolute;
     display: flex;
-    width: 10em;
+    width: 15rem;
     height: 35rem;
-    left: 80rem;
+    left: 90rem;
     top: 145rem;
     
 }
@@ -237,7 +239,7 @@ color: #00252E;
 .build-page-container{
     width: 680px;
     left: 389px;
-    top: 350rem;
+    top: 360rem;
 }
 
 .build-page-container p{
@@ -257,11 +259,11 @@ color: #00252E;
 footer {
     position: relative;
     display: flex;
-    top: 360rem;
+    top: 380rem;
 }
 
 footer img{
-    width: 129rem;
+    width: 146rem;
     left:- 1rem;
      height: 55rem;
 }
@@ -386,7 +388,8 @@ button span{
     width: 15rem;
     height: 4rem;
     top: 34rem;
-    background: #FF8ED7;
+    background: #FF52C1;
+    ;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
@@ -394,10 +397,10 @@ button span{
 }
 
 
-@media only screen and (max-width: 280px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
     
     main{
-        width: 280px;     
+        width: 375px;     
     }
 
     .page-content{
@@ -414,6 +417,16 @@ button span{
         display: flex; 
     }
 
+    .btn{
+        width: 10rem;
+        background: #FFFFFF;
+        border: 1px solid #FF52C1;
+        box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778);
+        border-radius: 15px;
+        color: #FF52C1;
+        cursor: pointer;
+    }
+
     .build-page, .build-page-container{
         position: absolute;
         display: flex;
@@ -424,26 +437,32 @@ button span{
     .build-page .build h4{
        position: absolute;
         top: 4rem;
-        width: 50rem;
-        left: 40rem;
+        width: 100rem;
+        left: 20rem;
+        font-size: 100px;
+        line-height: 12rem;
+
     }
 
     .build-page .build h5{
-        top: 55rem;
-        width: 35rem;
-        left: 45rem;
+        top: 60rem;
+        width: 122rem;
+        left: 10rem;
+        font-size: 70px;
+        line-height: 10rem;
     }
 
     .build-page .btn1{
         position: absolute;
-        top: 75rem;
+        top: 110rem;
         left: 48rem;
+      
 
     }
 
     .mockup{
         display: flex;
-        top: 95rem;
+        top: 130rem;
     }
 
     .diagram-page-container{
@@ -451,11 +470,11 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center; 
-        top: -10rem;
+        /* top: -7rem; */
     }
 
     .icon-1 {
-        top: 180rem;
+        top: 190rem;
         left: 50rem;
     }
 
@@ -479,7 +498,7 @@ button span{
 
     .col-0 img{
         position: relative;
-        width: 129rem;
+        width: 135rem;
         height: 95rem;
     }
 
@@ -531,7 +550,7 @@ button span{
 
     .colo-2 img{
         position: relative;
-        width: 129rem;
+        width: 140rem;
         height: 92rem;
     }
 
@@ -549,6 +568,7 @@ button span{
         top: 65rem;
         left: 45rem;
     }
+
     .build-page-container{
         position: absolute;
         top: 530rem;
@@ -575,17 +595,38 @@ button span{
     }
 
     footer img{
-        height: 95rem;
+        position: absolute;
+        width: 156rem;
+        top: 5rem;
+        left: -10rem;
+        height: 140rem;
     }
 
     .new-icon {
         position: absolute;
-        left: -54rem;
+        left: -53rem;
+    }
+
+    .new-icon h1{
+        top: 34rem;
+        font-size: 5rem;
+    }
+
+    .new-icon p{
+        width: 50rem;
+        top: 45rem;
+        font-style: normal;
+        font-size: 2.5rem;
+        line-height: 4rem;
     }
 
     .new-icon button{
         position: relative;
-        width: 35rem;    
+        top: 65rem;
+        width: 90rem; 
+        height: 10rem;
+        font-style: normal;
+        border-radius: 2rem;  
     }
 
     .new-icon h2, button span{
@@ -594,36 +635,59 @@ button span{
 
      .subs button{
         position: relative;
-        width: 17rem;
-        top: 35rem;
-        left: 94rem;
+        width: 54rem;
+        top: 70rem;
+        left: 113rem;
     }
 
-    footer .foot-logo{
-        top: 60rem;
+    .subs .sub-text{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 50px;
+        line-height: 24px;
+    }
+
+
+    footer .foot-logo {
+        top: 100rem;
         left: 22rem;
+    
     }
 
     footer p{
-        left: 22rem;
-        top: 67rem;
-    }
+        width: 50rem;
+        top: 110rem;
+        left: 23rem;
+        font-style: normal;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        }
+
+        .phone-icon svg{
+            top: 36rem;
+        }
 
     .phone-icon{
         position: absolute;;
-        top: 43rem;
+        top: 90rem;
         left: 7rem;
     }
 
+    .mail-icon svg{
+        top: 40rem;
+    }
+
+
     .mail-icon{
         position: absolute;;
-        top: 43rem;
+        top: 93rem;
         left: 7rem;
     }
 
     .social-icon{
         position: absolute;
-        top: 90rem;
+        top: 140rem;
         left: 22rem;
     }
 
