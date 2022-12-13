@@ -444,11 +444,7 @@ button span{
 
     }
 
-<<<<<<< HEAD
-    .build-page .build h5 {
-=======
     .build-page .build h5{
->>>>>>> e531a06f6936d2e60db6142504d256626bded982
         top: 60rem;
         width: 122rem;
         left: 10rem;
@@ -460,7 +456,6 @@ button span{
         position: absolute;
         top: 110rem;
         left: 48rem;
-      
 
     }
 
@@ -646,17 +641,10 @@ button span{
 
     .subs .sub-text{
         font-family: 'Open Sans';
-<<<<<<< HEAD
         font-style: normal;
         font-weight: 450;
         font-size: 50px;
         line-height: 24px;
-=======
-    font-style: normal;
-font-weight: 450;
-font-size: 50px;
-line-height: 24px;
->>>>>>> e531a06f6936d2e60db6142504d256626bded982
     }
 
 
