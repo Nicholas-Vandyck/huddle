@@ -399,11 +399,11 @@ button span{
 
 @media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
     
-    main{
+    main {
         width: 375px;     
     }
 
-    .page-content{
+    .page-content {
         position: relative;
         padding: 3rem;
         width: 280px;
@@ -413,11 +413,11 @@ button span{
         left: 0;
     }
 
-    .header-content{
+    .header-content {
         display: flex; 
     }
 
-    .btn{
+    .btn {
         width: 10rem;
         background: #FFFFFF;
         border: 1px solid #FF52C1;
@@ -444,7 +444,7 @@ button span{
 
     }
 
-    .build-page .build h5{
+    .build-page .build h5 {
         top: 60rem;
         width: 122rem;
         left: 10rem;
@@ -452,7 +452,7 @@ button span{
         line-height: 10rem;
     }
 
-    .build-page .btn1{
+    .build-page .btn1 {
         position: absolute;
         top: 110rem;
         left: 48rem;
@@ -460,7 +460,7 @@ button span{
 
     }
 
-    .mockup{
+    .mockup {
         display: flex;
         top: 130rem;
     }
