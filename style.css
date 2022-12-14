@@ -466,15 +466,16 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center; 
-        /* top: -7rem; */
+       
     }
 
     .icon-1 {
         top: 230rem;
         left: 50rem;
+        width: 40rem;
     }
 
-    .col-1 h1{
+    .col-1 h1 {
         top: 6rem;
         left: 50rem;
     }
@@ -507,9 +508,16 @@ button span{
     }
 
     .col-0 h2{
-        width: 38rem;
+        display: flex;
+        width: 50rem;
         top: 70rem;
-        left: 45rem;
+        left: 40rem;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
     }
 
     .flower-page-container{
@@ -533,6 +541,12 @@ button span{
     .flower-page-container h2{
         top: 33rem;
         left: 37rem;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
     }
 
     .user-page-container{
@@ -559,9 +573,16 @@ button span{
     }
 
     .colo-2 h2{
-        width: 38rem;
+        width: 60rem;
         top: 65rem;
-        left: 45rem;
+        left: 34rem;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 30px;
+        
+        text-align: center;
     }
 
     .build-page-container{
@@ -576,12 +597,14 @@ button span{
     .build-page-container p span{
         position: absolute;
         top: 5rem;
-        left: 10rem;
+        left: 20rem;
     }
 
     .build-page-container .btn{
-        top: 10rem;
-        left: -30rem;
+        position: inherit;
+        top: 15rem;
+        left: 5rem;
+        font-size: 40px;
     }
 
     footer {
