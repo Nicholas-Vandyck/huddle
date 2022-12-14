@@ -420,6 +420,7 @@ button span{
     .header-content .btn {
         width: 15rem;
         left: 50rem;
+        font-size: 25px !important;;
     }
 
     .build-page, .build-page-container{
@@ -449,16 +450,18 @@ button span{
 
     .build-page .btn1 {
         position: relative;
-        width: 45rem;
-        height: 10rem;
+        width: 55rem;
+        height: 15rem;
         top: 120rem;
-        left: 55rem;
+        left: 45rem;
+        font-size: 50px;
 
     }
 
     .mockup {
         display: flex;
         top: 150rem;
+        left: 25rem;
     }
 
     .diagram-page-container{
@@ -482,7 +485,16 @@ button span{
 
     .icon-2{
         top: 270rem;
-        left: 50rem;;
+        left: 50rem;
+        width: 40rem;
+    }
+
+    .diagram-page-container  p{
+        display: flex;
+        left: -55px;
+        justify-content: center;
+        align-items: center; 
+        font-size: 40px;
     }
 
     .grow-page-container{
@@ -495,7 +507,7 @@ button span{
 
     .grow-page-container .col-0 img{
         width: 145rem;
-        height: 95rem;
+        height: 105rem;
     }
 
     .grow-page-container .col-3 {
@@ -509,14 +521,14 @@ button span{
 
     .col-0 h2{
         display: flex;
-        width: 50rem;
+        width: 60rem;
         top: 70rem;
-        left: 40rem;
+        left: 30rem;
         font-family: 'Open Sans';
         font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 30px;
+        /* font-weight: 400; */
+        font-size: 30px;
+        line-height: 35px;
         text-align: center;
     }
 
@@ -544,8 +556,8 @@ button span{
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 35px;
         text-align: center;
     }
 
@@ -560,7 +572,7 @@ button span{
     .user-page-container .colo-2 img{
         /* position: relative; */
         width: 145rem;
-        height: 92rem;
+        height: 105rem;
     }
 
     .user-page-container .colo-3{
@@ -579,8 +591,8 @@ button span{
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 100;
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 35px;
         text-align: center;
     }
 
@@ -601,8 +613,10 @@ button span{
 
     .build-page-container .btn{
         position: inherit;
+        width: 45rem;
+        height: 10rem;
         top: 15rem;
-        left: 5rem;
+        left: 10rem;
         font-size: 40px;
     }
 
@@ -681,9 +695,9 @@ button span{
         line-height: 4rem;
         }
 
-        .phone-icon svg{
-            top: 36rem;
-        }
+    .phone-icon svg{
+        top: 36rem;
+    }
 
     .phone-icon{
         position: absolute;;
