@@ -44,7 +44,6 @@ body, html {
     position: relative;
     margin-top: -5rem;
     align-items: center;
-    /* left: -5rem; */
 }
 
 .build h4{
@@ -207,7 +206,7 @@ body, html {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-color: #00252E;
+    color: #00252E;
 }
 
 .colo-2{
@@ -272,7 +271,6 @@ footer .foot-logo {
     position: absolute;
     left: 15rem;
     top: 20rem;
-    
 }
 footer .foot-logo svg path{
     fill: #ffffff;
@@ -389,7 +387,6 @@ button span{
     height: 4rem;
     top: 34rem;
     background: #FF52C1;
-    ;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
@@ -526,7 +523,6 @@ button span{
         left: 30rem;
         font-family: 'Open Sans';
         font-style: normal;
-        /* font-weight: 400; */
         font-size: 30px;
         line-height: 35px;
         text-align: center;
@@ -538,7 +534,6 @@ button span{
         justify-content: center;
         align-items: center;
         top: 430rem;
-        /* height: 100%; */
     }
 
     .flower-page-container .col-5 {
@@ -570,7 +565,6 @@ button span{
     }
 
     .user-page-container .colo-2 img{
-        /* position: relative; */
         width: 145rem;
         height: 105rem;
     }
