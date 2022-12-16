@@ -1,7 +1,7 @@
 * {  
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', 'Poppins';
+    font-family: 'Poppins';                                           
     font-style: normal;
     box-sizing: border-box;
 }
@@ -79,6 +79,11 @@ body, html {
     border-radius: 40px;
     border: none ;
     color: #FFFFFF;
+   
+}
+
+.btn1:hover{
+    background: #FF8ED7;
     cursor: pointer;
 }
 
@@ -164,8 +169,7 @@ body, html {
     width: 15rem;
     height: 35rem;
     left: 90rem;
-    top: 145rem;
-    
+    top: 145rem;  
 }
 
 .flower-page-container{
@@ -210,7 +214,7 @@ body, html {
 }
 
 .colo-2{
- top: 270rem;
+    top: 270rem;
 }
 
 .user-page-container p{
@@ -255,6 +259,11 @@ body, html {
     top: 3rem;
 }
 
+.btn:hover{
+    background: #FF8ED7;
+    
+}
+
 footer {
     position: relative;
     display: flex;
@@ -272,6 +281,7 @@ footer .foot-logo {
     left: 15rem;
     top: 20rem;
 }
+
 footer .foot-logo svg path{
     fill: #ffffff;
 }
@@ -342,6 +352,18 @@ footer p{
     color: #FFFFFF;
 }
 
+.new-icon .form-control {
+    display: flex;
+    width: 28rem;
+    height: 4rem;
+    font-weight: 400;
+    margin-top: 34rem;
+    margin-left: -70rem;
+    border-radius: 6px;
+    border-color: #FF4343;
+
+}
+
 .new-icon p{
     width: 30rem;
     top: 24rem;
@@ -371,7 +393,6 @@ button span{
     align-items: center;
     top: 38rem;
     left: 76rem;
-    width: 12rem;
     font-weight: 600;
     font-size: 12px;
     line-height: 24px;
@@ -391,8 +412,12 @@ button span{
     cursor: pointer;
 }
 
+.subs :hover{
+    background: #FF8ED7;
+}
 
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+
+@media only screen and (min-width: 375px)and (max-width: 480px) {
     
     main {
         width: 375px;     
@@ -428,26 +453,28 @@ button span{
     .build-page .build h4{
        position: absolute;
         top: 4rem;
-        width: 100rem;
+        width: 130rem;
         left: 20rem;
         font-size: 100px;
         line-height: 12rem;
+        font-family: 'poppins';
 
     }
 
     .build-page .build h5{
-        top: 60rem;
-        width: 122rem;
+        top: 70rem;
+        width: 155rem;
         left: 10rem;
         font-size: 70px;
         line-height: 10rem;
+        font-family: 'poppins';
     }
 
     .build-page .btn1 {
         position: relative;
         width: 55rem;
         height: 15rem;
-        top: 120rem;
+        top: 140rem;
         left: 45rem;
         font-size: 50px;
 
@@ -455,7 +482,7 @@ button span{
 
     .mockup {
         display: flex;
-        top: 150rem;
+        top: 175rem;
         left: 25rem;
     }
 
@@ -468,9 +495,9 @@ button span{
     }
 
     .icon-1 {
-        top: 230rem;
+        top: 260rem;
         left: 50rem;
-        width: 40rem;
+        width: 50rem;
     }
 
     .col-1 h1 {
@@ -479,7 +506,7 @@ button span{
     }
 
     .icon-2{
-        top: 270rem;
+        top: 300rem;
         left: 50rem;
         width: 40rem;
     }
@@ -497,7 +524,7 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 170rem;
+        top: 210rem;
     }
 
     .grow-page-container .col-0 img{
@@ -512,6 +539,8 @@ button span{
     .col-0 p{
         top: 60rem;
         left: 50rem;
+        font-family: 'poppins';
+
     }
 
     .col-0 h2{
@@ -519,9 +548,9 @@ button span{
         width: 60rem;
         top: 70rem;
         left: 30rem;
-        font-family: 'Open Sans';
+        font-family: 'poppins';
         font-style: normal;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 35px;
         text-align: center;
     }
@@ -531,7 +560,7 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 430rem;
+        top: 480rem;
     }
 
     .flower-page-container .col-5 {
@@ -541,15 +570,17 @@ button span{
     .flower-page-container p{
         top: 23rem;
         left: 40rem;
+        font-family: 'poppins';
     }
 
     .flower-page-container h2{
+        display: flex;
+        width: 65rem;
         top: 33rem;
         left: 37rem;
-        font-family: 'Open Sans';
+        font-family: 'poppins';
         font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 35px;
         text-align: center;
     }
@@ -559,7 +590,7 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 230rem;
+        top: 290rem;
     }
 
     .user-page-container .colo-2 img{
@@ -580,27 +611,26 @@ button span{
         width: 60rem;
         top: 65rem;
         left: 34rem;
-        font-family: 'Open Sans';
+        font-family: 'poppins';
         font-style: normal;
-        font-weight: 100;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 35px;
         text-align: center;
     }
 
     .build-page-container{
         position: absolute;
-        top: 610rem;
+        top: 690rem;
     }
 
     .build-page-container p{
-        width: 35rem;
+        width: 45rem;
     }
 
     .build-page-container p span{
         position: absolute;
         top: 5rem;
-        left: 20rem;
+        left: 17rem;
     }
 
     .build-page-container .btn{
@@ -614,7 +644,7 @@ button span{
 
     footer {
         position: relative;
-        top: 650rem;
+        top: 750rem;
     }
 
     footer img{
@@ -622,7 +652,7 @@ button span{
         width: 156rem;
         top: 5rem;
         left: -10rem;
-        height: 140rem;
+        height: 225rem;
     }
 
     .new-icon {
@@ -631,25 +661,38 @@ button span{
     }
 
     .new-icon h1{
-        top: 34rem;
-        font-size: 5rem;
+        top: 50rem;
+        width: 50rem;
+        font-family: 'poppins';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .new-icon .form-control {
+        display: flex;
+        width: 110rem;
+        height: 15rem;
+        font-weight: 400;
+        margin-top: 110rem;
+        margin-left: 76rem;
+        border-radius: 16px;
+        border-color: #FF4343;
+    
     }
 
     .new-icon p{
-        width: 50rem;
-        top: 45rem;
+        width: 110rem;
+        left: 70rem;
+        top: 75rem;
+        font-family: 'poppins';
+        font-weight: 400;
         font-style: normal;
-        font-size: 2.5rem;
-        line-height: 4rem;
-    }
-
-    .new-icon button{
-        position: relative;
-        top: 65rem;
-        width: 90rem; 
-        height: 10rem;
-        font-style: normal;
-        border-radius: 2rem;  
+        font-size: 60px;
+        line-height: 75px;
+        text-align: center;
     }
 
     .new-icon h2, button span{
@@ -658,59 +701,84 @@ button span{
 
      .subs button{
         position: relative;
-        width: 54rem;
-        top: 70rem;
-        left: 113rem;
+        width: 45rem;
+        height: 10rem;
+        top: 5rem;
+        left: 140rem;
     }
 
     .subs .sub-text{
         font-family: 'Open Sans';
         font-style: normal;
-        font-weight: 450;
-        font-size: 50px;
+        font-weight: 500;
+        font-size: 45px;
         line-height: 24px;
+        border-radius: 15px;
     }
 
+    .placeholder{
+        display: none !important;;
+    }
 
     footer .foot-logo {
-        top: 100rem;
+        display: flex;
+        position: absolute;
+        top: 150rem;
         left: 22rem;
     
     }
 
     footer p{
-        width: 50rem;
-        top: 110rem;
-        left: 23rem;
+        width: 100rem;
+        left: 10rem;
+        top: 160rem;
+        font-family: 'poppins';
+        font-weight: 400;
         font-style: normal;
-        font-size: 2.5rem;
-        line-height: 4rem;
+        font-size: 60px;
+        line-height: 75px;
+        text-align: center;
         }
 
     .phone-icon svg{
-        top: 36rem;
+        top: 100rem;
+        width: 50rem;
     }
 
     .phone-icon{
         position: absolute;;
-        top: 90rem;
+        top: 95rem;
         left: 7rem;
+    }
+
+    .phone-icon p{
+        top: 98rem;
+        left: 10rem;
+        font-family: 'poppins';
+        font-weight: 400;
     }
 
     .mail-icon svg{
-        top: 40rem;
+        top: 110rem;
     }
 
 
-    .mail-icon{
+    .mail-icon {
         position: absolute;;
-        top: 93rem;
+        top: 98rem;
         left: 7rem;
+    }
+
+    .mail-icon p{
+        top: 105rem;
+        left: 8rem;
+        font-family: 'poppins';
+        font-weight: 400;
     }
 
     .social-icon{
         position: absolute;
-        top: 140rem;
+        top: 220rem;
         left: 22rem;
     }
 
