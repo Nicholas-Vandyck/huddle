@@ -18,15 +18,14 @@ body, html {
     max-width: 1440px; 
     margin: 0;        
 }
-
 .header-content{
     position: absolute;
     padding-left: 8rem;
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 1200px;
     height: 40px;
-    top: 60px;
+    top: 50px;
 }
 
 .btn{
@@ -42,12 +41,12 @@ body, html {
 
 .build-page, .build-page-container{
     position: relative;
-    margin-top: -5rem;
+    margin-top: -15rem;
     align-items: center;
 }
 
 .build h4{
-    left: 20rem;
+    left: 30rem;
     text-align: center;
     margin-top: 30rem;
     font-weight: 700;
@@ -60,7 +59,7 @@ body, html {
 .build h5{
     position: absolute;
     width: 550px;
-    left: 50rem; 
+    left: 37rem; 
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -70,7 +69,7 @@ body, html {
 
 .btn1, .build-page-container .btn{
     position: relative;
-    left: 65rem;
+    left: 50rem;
     top: 12rem; 
     height: 50px;
     width: 280px;
@@ -84,7 +83,7 @@ body, html {
 
 .mockup{
     position: absolute;
-    left: 30rem;
+    left: 15rem;
     top: 30rem;;
 
 }
@@ -97,13 +96,13 @@ body, html {
 
 .icon-1{
     position: absolute;
-    left: 35rem;
+    left: 24rem;
     top: 100rem;
 }
 
 .icon-2{
     position: absolute;
-    left: 95rem;
+    left: 83rem;
     top: 100rem;
 }
 
@@ -126,7 +125,7 @@ body, html {
 
 .grow-page-container, .user-page-container{
     position: absolute;
-    left: -10rem;
+    left: -8rem;
 
 }
 
@@ -139,7 +138,7 @@ body, html {
 
 .grow-page-container p, .user-page-container p{
     position: absolute;
-    left: 15rem;
+    left: 8rem;
     top: 28rem;
     font-weight: 700;
     font-size: 40px;
@@ -151,7 +150,7 @@ body, html {
     position: absolute;
     width: 40rem;
     top: 35rem;
-    left: 15rem;
+    left: 8rem;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -161,9 +160,9 @@ body, html {
 .col-3,  .colo-3{
     position: absolute;
     display: flex;
-    width: 15rem;
+    width: 10em;
     height: 35rem;
-    left: 90rem;
+    left: 80rem;
     top: 145rem;
     
 }
@@ -206,7 +205,7 @@ body, html {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #00252E;
+color: #00252E;
 }
 
 .colo-2{
@@ -238,7 +237,7 @@ body, html {
 .build-page-container{
     width: 680px;
     left: 389px;
-    top: 360rem;
+    top: 350rem;
 }
 
 .build-page-container p{
@@ -258,11 +257,11 @@ body, html {
 footer {
     position: relative;
     display: flex;
-    top: 380rem;
+    top: 360rem;
 }
 
 footer img{
-    width: 146rem;
+    width: 129rem;
     left:- 1rem;
      height: 55rem;
 }
@@ -271,6 +270,7 @@ footer .foot-logo {
     position: absolute;
     left: 15rem;
     top: 20rem;
+    
 }
 footer .foot-logo svg path{
     fill: #ffffff;
@@ -319,6 +319,8 @@ footer p{
     width: 10rem;
     top: 48rem;
     left: 15rem;
+    
+
 }
 
 .social-icon svg path{
@@ -358,6 +360,8 @@ footer p{
     border: 1px solid #FF4343;
     border-radius: 6px;
     cursor: pointer;
+   
+    
 }
 
 button span{
@@ -384,7 +388,7 @@ button span{
     width: 15rem;
     height: 4rem;
     top: 34rem;
-    background: #FF52C1;
+    background: #FF8ED7;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
@@ -392,30 +396,24 @@ button span{
 }
 
 
-@media only screen and (max-width: 375px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 375px) {
     
-    main {
+    main{
         width: 375px;     
     }
 
-    .page-content {
+    .page-content{
         position: relative;
         padding: 3rem;
-        width: 375px;
+        /* width: 280px; */
         height: 100%;
         margin: 0;
         top: 0;
         left: 0;
     }
 
-    .header-content {
+    .header-content{
         display: flex; 
-    }
-
-    .header-content .btn {
-        width: 15rem;
-        left: 50rem;
-        font-size: 25px !important;;
     }
 
     .build-page, .build-page-container{
@@ -428,35 +426,26 @@ button span{
     .build-page .build h4{
        position: absolute;
         top: 4rem;
-        width: 100rem;
-        left: 20rem;
-        font-size: 100px;
-        line-height: 12rem;
-
+        width: 50rem;
+        left: 40rem;
     }
 
     .build-page .build h5{
-        top: 60rem;
-        width: 122rem;
-        left: 10rem;
-        font-size: 70px;
-        line-height: 10rem;
-    }
-
-    .build-page .btn1 {
-        position: relative;
-        width: 55rem;
-        height: 15rem;
-        top: 120rem;
+        top: 55rem;
+        width: 35rem;
         left: 45rem;
-        font-size: 50px;
+    }
+
+    .build-page .btn1{
+        position: absolute;
+        top: 75rem;
+        left: 48rem;
 
     }
 
-    .mockup {
+    .mockup{
         display: flex;
-        top: 150rem;
-        left: 25rem;
+        top: 95rem;
     }
 
     .diagram-page-container{
@@ -464,32 +453,22 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center; 
-       
+        top: -10rem;
     }
 
     .icon-1 {
-        top: 230rem;
+        top: 180rem;
         left: 50rem;
-        width: 40rem;
     }
 
-    .col-1 h1 {
+    .col-1 h1{
         top: 6rem;
         left: 50rem;
     }
 
     .icon-2{
-        top: 270rem;
-        left: 50rem;
-        width: 40rem;
-    }
-
-    .diagram-page-container  p{
-        display: flex;
-        left: -55px;
-        justify-content: center;
-        align-items: center; 
-        font-size: 40px;
+        top: 210rem;
+        left: 50rem;;
     }
 
     .grow-page-container{
@@ -497,15 +476,16 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 170rem;
+        top: 100rem;
     }
 
-    .grow-page-container .col-0 img{
-        width: 145rem;
-        height: 105rem;
+    .col-0 img{
+        position: relative;
+        width: 129rem;
+        height: 95rem;
     }
 
-    .grow-page-container .col-3 {
+    .grow-page-container .col-3{
         left: 50rem;
     }
 
@@ -515,15 +495,9 @@ button span{
     }
 
     .col-0 h2{
-        display: flex;
-        width: 60rem;
+        width: 38rem;
         top: 70rem;
-        left: 30rem;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-size: 30px;
-        line-height: 35px;
-        text-align: center;
+        left: 45rem;
     }
 
     .flower-page-container{
@@ -531,7 +505,8 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 430rem;
+        top: 350rem;
+        /* height: 100%; */
     }
 
     .flower-page-container .col-5 {
@@ -546,12 +521,6 @@ button span{
     .flower-page-container h2{
         top: 33rem;
         left: 37rem;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 35px;
-        text-align: center;
     }
 
     .user-page-container{
@@ -559,12 +528,13 @@ button span{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 230rem;
+        top: 140rem;
     }
 
-    .user-page-container .colo-2 img{
-        width: 145rem;
-        height: 105rem;
+    .colo-2 img{
+        position: relative;
+        width: 129rem;
+        height: 92rem;
     }
 
     .user-page-container .colo-3{
@@ -577,20 +547,13 @@ button span{
     }
 
     .colo-2 h2{
-        width: 60rem;
+        width: 38rem;
         top: 65rem;
-        left: 34rem;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 100;
-        font-size: 30px;
-        line-height: 35px;
-        text-align: center;
+        left: 45rem;
     }
-
     .build-page-container{
         position: absolute;
-        top: 610rem;
+        top: 530rem;
     }
 
     .build-page-container p{
@@ -600,56 +563,31 @@ button span{
     .build-page-container p span{
         position: absolute;
         top: 5rem;
-        left: 20rem;
+        left: 10rem;
     }
 
     .build-page-container .btn{
-        position: inherit;
-        width: 45rem;
-        height: 10rem;
-        top: 15rem;
-        left: 10rem;
-        font-size: 40px;
+        top: 10rem;
+        left: -30rem;
     }
 
     footer {
         position: relative;
-        top: 650rem;
+        top: 550rem;
     }
 
     footer img{
-        position: absolute;
-        width: 156rem;
-        top: 5rem;
-        left: -10rem;
-        height: 140rem;
+        height: 95rem;
     }
 
     .new-icon {
         position: absolute;
-        left: -53rem;
-    }
-
-    .new-icon h1{
-        top: 34rem;
-        font-size: 5rem;
-    }
-
-    .new-icon p{
-        width: 50rem;
-        top: 45rem;
-        font-style: normal;
-        font-size: 2.5rem;
-        line-height: 4rem;
+        left: -54rem;
     }
 
     .new-icon button{
         position: relative;
-        top: 65rem;
-        width: 90rem; 
-        height: 10rem;
-        font-style: normal;
-        border-radius: 2rem;  
+        width: 35rem;    
     }
 
     .new-icon h2, button span{
@@ -658,59 +596,36 @@ button span{
 
      .subs button{
         position: relative;
-        width: 54rem;
-        top: 70rem;
-        left: 113rem;
+        width: 17rem;
+        top: 35rem;
+        left: 94rem;
     }
 
-    .subs .sub-text{
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 450;
-        font-size: 50px;
-        line-height: 24px;
-    }
-
-
-    footer .foot-logo {
-        top: 100rem;
+    footer .foot-logo{
+        top: 60rem;
         left: 22rem;
-    
     }
 
     footer p{
-        width: 50rem;
-        top: 110rem;
-        left: 23rem;
-        font-style: normal;
-        font-size: 2.5rem;
-        line-height: 4rem;
-        }
-
-    .phone-icon svg{
-        top: 36rem;
+        left: 22rem;
+        top: 67rem;
     }
 
     .phone-icon{
         position: absolute;;
-        top: 90rem;
+        top: 43rem;
         left: 7rem;
     }
 
-    .mail-icon svg{
-        top: 40rem;
-    }
-
-
     .mail-icon{
         position: absolute;;
-        top: 93rem;
+        top: 43rem;
         left: 7rem;
     }
 
     .social-icon{
         position: absolute;
-        top: 140rem;
+        top: 90rem;
         left: 22rem;
     }
 
