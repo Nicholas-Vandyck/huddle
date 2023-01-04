@@ -1,7 +1,7 @@
 * {  
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', 'Poppins';
+    font-family: 'Poppins';                                           
     font-style: normal;
     box-sizing: border-box;
 }
@@ -78,6 +78,11 @@ body, html {
     border-radius: 40px;
     border: none ;
     color: #FFFFFF;
+   
+}
+
+.btn1:hover{
+    background: #FF8ED7;
     cursor: pointer;
 }
 
@@ -162,7 +167,7 @@ body, html {
     display: flex;
     width: 10em;
     height: 35rem;
-    left: 80rem;
+    left: 90rem;
     top: 145rem;
     
 }
@@ -209,7 +214,7 @@ color: #00252E;
 }
 
 .colo-2{
- top: 270rem;
+    top: 270rem;
 }
 
 .user-page-container p{
@@ -254,6 +259,11 @@ color: #00252E;
     top: 3rem;
 }
 
+.btn:hover{
+    background: #FF8ED7;
+    
+}
+
 footer {
     position: relative;
     display: flex;
@@ -272,6 +282,7 @@ footer .foot-logo {
     top: 20rem;
     
 }
+
 footer .foot-logo svg path{
     fill: #ffffff;
 }
@@ -344,6 +355,18 @@ footer p{
     color: #FFFFFF;
 }
 
+.new-icon .form-control {
+    display: flex;
+    width: 28rem;
+    height: 4rem;
+    font-weight: 400;
+    margin-top: 34rem;
+    margin-left: -70rem;
+    border-radius: 6px;
+    border-color: #FF4343;
+
+}
+
 .new-icon p{
     width: 30rem;
     top: 24rem;
@@ -375,7 +398,6 @@ button span{
     align-items: center;
     top: 38rem;
     left: 76rem;
-    width: 12rem;
     font-weight: 600;
     font-size: 12px;
     line-height: 24px;
@@ -395,6 +417,9 @@ button span{
     cursor: pointer;
 }
 
+.subs :hover{
+    background: #FF8ED7;
+}
 
 @media only screen and (max-width: 375px) {
     
@@ -492,6 +517,8 @@ button span{
     .col-0 p{
         top: 60rem;
         left: 50rem;
+        font-family: 'poppins';
+
     }
 
     .col-0 h2{
@@ -516,9 +543,12 @@ button span{
     .flower-page-container p{
         top: 23rem;
         left: 40rem;
+        font-family: 'poppins';
     }
 
     .flower-page-container h2{
+        display: flex;
+        width: 65rem;
         top: 33rem;
         left: 37rem;
     }
@@ -557,7 +587,7 @@ button span{
     }
 
     .build-page-container p{
-        width: 35rem;
+        width: 45rem;
     }
 
     .build-page-container p span{
@@ -617,10 +647,17 @@ button span{
         left: 7rem;
     }
 
-    .mail-icon{
+    .mail-icon {
         position: absolute;;
         top: 43rem;
         left: 7rem;
+    }
+
+    .mail-icon p{
+        top: 105rem;
+        left: 8rem;
+        font-family: 'poppins';
+        font-weight: 400;
     }
 
     .social-icon{
